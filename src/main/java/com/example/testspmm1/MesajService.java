@@ -14,6 +14,7 @@ import java.io.IOException;
 public class MesajService {
 
     private final ObjectMapper objectMapper;
+    //lab5 Strategy Pattern
     private final List<String> rezultate = new ArrayList<>();
     public MesajService(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
